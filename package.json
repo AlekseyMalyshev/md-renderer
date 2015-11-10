@@ -2,9 +2,17 @@
   "name": "md-renderer",
   "version": "1.0.0",
   "description": "Markdown renderer for browsers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AlekseyMalyshev/md-renderer.git"
+  },
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "5.0.0"
   },
   "author": "Aleksey Malyshev",
   "license": "ISC",
