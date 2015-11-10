@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title Online Marked Rendering Engine
+    link(rel='stylesheet' href='css/styles.css')
+  body
+    h1.title Online marked rendering Engine
+    div.container
+      div.button
+        input(type='button',class='convert',value='Convert')
+        label
+          input(type='checkbox',class='autoupdate',checked)
+          | update automatically
+      div.converter
+        div.input
+          textarea
+        div.html-document
+    script(type='text/javascript',src='//code.jquery.com/jquery-2.1.4.js')
+    script(type='text/javascript',src='js/main.js')
