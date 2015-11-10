@@ -18,6 +18,7 @@ app.get('/', (req, res) => res.render('index.jade'));
 
 app.post('/md-processor', mdConverter);
 
-let listener = app.listen(3000);
+let port = process.env.PORT || 3000;
+let listener = app.listen(port);
 
 console.log('express is listening on port: ' + listener.address().port);
